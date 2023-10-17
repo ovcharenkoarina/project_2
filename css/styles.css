@@ -39,7 +39,7 @@ body {
   font-family: 'Abril Fatface', serif, sans-serif;
   font-weight: 400;
   background-color: var(--pastel-pink);
-  color: var(--medium-gray);
+  color: var(--dark-gray);
 }
 
 h1 {
@@ -50,9 +50,7 @@ h1 {
 h2 {
   font-weight: 700;
   color: var(--deep-pink);
-  text-shadow: 2px 2px 0 var(--dark-gray);
-  border: 2px solid var(--dark-gray); 
-  display: inline; 
+  text-shadow: var(--medium-gray);
 }
 
 /*Navigation*/
