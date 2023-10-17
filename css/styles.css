@@ -12,35 +12,14 @@ html {
   /* Medium Gray Text Color */
   --medium-gray: #666;
 
-  /* Deep Pink Accent Color */
+  /* Deep Pink Accent Color and Navigation Background*/
   --deep-pink: #ff1493;
 
-  /* White Header Background */
+  /* White Header Background and Navigation Text*/
   --white: #fff;
 
-  /* Hot Pink Header Text */
+  /* Hot Pink Header Text and Navigation Hover*/
   --hot-pink: #ff69b4;
-
-  /* Hot Pink Button Background */
-  --button-bg: #ff69b4;
-
-  /* White Button Text */
-  --button-text: #fff;
-
-  /* Deep Pink Navigation Background */
-  --nav-bg: #ff1493;
-
-  /* White Navigation Text */
-  --nav-text: #fff;
-
-  /* Lighter Hot Pink on Navigation Hover */
-  --nav-hover: #ff69b4;
-}
-
-body {
-  font-family: 'Abril Fatface', serif, sans-serif;
-  font-weight: 400;
-  background-color: var(--pastel-pink);
 }
 
 a {
@@ -50,4 +29,54 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: 'Abril Fatface', serif, sans-serif;
+  font-weight: 400;
+  background-color: var(--pastel-pink);
+}
+
+/*Navigation*/
+
+#main-navbar {
+  backgrouund-color: var( --deep-pink);
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+background-color: var(--hot-pink);
 }
