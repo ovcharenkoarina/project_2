@@ -44,7 +44,7 @@ body {
 /*Navigation*/
 
 #main-navbar {
-  backgrouund-color: var( --deep-pink);
+  background-color: var(--deep-pink);
   overflow: hidden;
 }
 
