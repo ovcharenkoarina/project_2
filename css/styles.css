@@ -67,10 +67,8 @@ body {
 }
 
 #main-navbar ul li{
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 #main-navbar ul li a {
