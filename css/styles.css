@@ -40,11 +40,13 @@ body {
   font-weight: 400;
   background-color: var(--pastel-pink);
   color: var(--dark-gray);
+  margin: 0;
 }
 
 h1 {
   font-weight: 700;
   color: var(--dark-gray);
+  text-align: center;
 }
 
 h2 {
@@ -57,9 +59,11 @@ h2 {
 
 #main-navbar {
   background-color: var(--deep-pink);
+  display: flex;
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  padding: 10px 0;
 }
 
 #navbar-container {
