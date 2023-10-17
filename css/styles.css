@@ -47,6 +47,14 @@ h1 {
   color: var(--dark-gray);
 }
 
+h2 {
+  font-weight: 700;
+  color: var(--deep-pink);
+  text-shadow: 2px 2px 0 var(--dark-gray);
+  border: 2px solid var(--dark-gray); 
+  display: inline; 
+}
+
 /*Navigation*/
 
 #main-navbar {
