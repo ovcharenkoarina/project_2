@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Pastel Pink Background Color */
+  --pastel-pink: #ffc0cb;
+
+  /* Dark Gray Text Color */
+  --dark-gray: #333;
+
+  /* Medium Gray Text Color */
+  --medium-gray: #666;
+
+  /* Deep Pink Accent Color */
+  --deep-pink: #ff1493;
+
+  /* White Header Background */
+  --white: #fff;
+
+  /* Hot Pink Header Text */
+  --hot-pink: #ff69b4;
+
+  /* Hot Pink Button Background */
+  --button-bg: #ff69b4;
+
+  /* White Button Text */
+  --button-text: #fff;
+
+  /* Deep Pink Navigation Background */
+  --nav-bg: #ff1493;
+
+  /* White Navigation Text */
+  --nav-text: #fff;
+
+  /* Lighter Hot Pink on Navigation Hover */
+  --nav-hover: #ff69b4;
+}
+
+body {
+  font-family: 'Abril Fatface', serif, sans-serif;
+  font-weight: 400;
+  background-color: val(--pastel-pink);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
