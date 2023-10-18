@@ -196,6 +196,7 @@ h2 {
 
 .music-header {
   color: var(--deep-purple);
+  text-shadow: none;
 }
 
 #music-main-header{
