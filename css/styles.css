@@ -65,7 +65,7 @@ h2 {
 
 #navbar-container {
   width: 80%;
-  padding: 0 20px;; 
+  padding: 0 10%; 
 }
 
 #main-navbar ul {
@@ -96,11 +96,8 @@ h2 {
   padding: 10px 25px;
 }
 
-#main-navbar ul li:last-child a {
-  margin-right: 0;
-}
-
 /* Index Page-Specific Styles */
+
 #index-page {
   display: flex;
   flex-direction: column;
