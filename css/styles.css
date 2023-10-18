@@ -1,3 +1,11 @@
+/* Reset CSS */
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Common Styles */
 html {
   box-sizing: border-box;
 }
@@ -27,7 +35,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Center content horizontally */
 }
 
 h1 {
@@ -37,7 +45,7 @@ h1 {
   text-align: center;
   padding: 10px 20px;
   border-radius: 5px;
-  text-shadow: 2px 2px 0 var(--dark-gray); 
+  text-shadow: 2px 2px 0 var(--dark-gray);
   margin: 10px;
 }
 
@@ -46,21 +54,13 @@ h2 {
   color: var(--deep-pink);
 }
 
-.fluid-page {
-  background-color: var(--pastel-pink);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/*Navigation*/
-
+/* Navigation Styles */
 #main-navbar {
   background-color: var(--deep-pink);
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 10px 0;
+  width: 100%;
 }
 
 #navbar-container {
@@ -76,7 +76,7 @@ h2 {
   align-items: center;
 }
 
-#main-navbar ul li{
+#main-navbar ul li {
   margin: 0;
   padding: 0;
 }
@@ -87,12 +87,11 @@ h2 {
   text-decoration: none;
   display: inline-block;
   margin: 0 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 #main-navbar ul li a:hover {
   background-color: var(--hot-pink);
-  margin: 0;
   padding: 10px 25px;
 }
 
@@ -100,72 +99,32 @@ h2 {
   margin-right: 0;
 }
 
-/*Books page*/
-#books-page h1 {
-  margin: 10px;
-}
-
-#books-page h2 {
-  margin: 0;
-}
-
-.fluid-page #main-navbar ul {
-  justify-content: flex-start;
-  padding: 0 20px;
-}
-
-/*Index page*/
-
+/* Page-Specific Styles */
 #index-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px; /* Add padding for content */
+  padding: 20px;
   background-color: var(--pastel-pink);
 }
 
-#index-page .index-section {
+.index-section {
   text-align: center;
-  margin: 10px 0;
+  margin: 20px 0; /* Increased margin for better spacing */
 }
 
-#index-page h1 {
-  margin: 20px 0;
-}
-
-#index-page #main-navbar {
-  background-color: var(--deep-pink);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 10px 0;
-}
-
-#index-page #navbar-container {
-  width: 80%;
-}
-
-#index-page #main-navbar ul li {
-  margin: 0;
+/* Remove dots in front of each line in <ul> */
+.index-section ul {
+  list-style: none;
   padding: 0;
 }
 
-#index-page #main-navbar ul li a {
-  padding: 10px 20px;
-  color: var(--white);
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 5px;
-  border-radius: 5px;
+.index-section ul li {
+  margin: 10px 0; /* Added margin for better spacing */
 }
 
-#index-page #main-navbar ul li a:hover {
-  background-color: var(--hot-pink);
-  margin: 0;
-  padding: 10px 25px;
+.index-section h3 {
+  font-weight: 700;
 }
 
-#index-page #main-navbar ul li:last-child a {
-  margin-right: 0;
-}
+/* Removed additional CSS that was not necessary for index.html */
