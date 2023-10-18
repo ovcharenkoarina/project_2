@@ -196,7 +196,7 @@ h2 {
 
 .music-header {
   color: var(--deep-purple);
-  text-shadow: none;
+  text-shadow: 2px 2px 0 var(--dark-gray);
 }
 
 #video-1 {
