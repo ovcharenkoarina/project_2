@@ -99,7 +99,7 @@ h2 {
   margin-right: 0;
 }
 
-/* Page-Specific Styles */
+/* Index Page-Specific Styles */
 #index-page {
   display: flex;
   flex-direction: column;
@@ -110,21 +110,23 @@ h2 {
 
 .index-section {
   text-align: center;
-  margin: 20px 0; /* Increased margin for better spacing */
+  margin: 20px 0;
 }
 
-/* Remove dots in front of each line in <ul> */
 .index-section ul {
   list-style: none;
   padding: 0;
 }
 
 .index-section ul li {
-  margin: 10px 0; /* Added margin for better spacing */
+  margin: 10px 0;
 }
 
 .index-section h3 {
   font-weight: 700;
 }
 
-/* Removed additional CSS that was not necessary for index.html */
+/* Index Page-Specific Styles */
+.book-section {
+  margin: 20px 0;
+}
