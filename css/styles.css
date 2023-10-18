@@ -50,6 +50,7 @@ h2 {
 }
 
 /* Navigation Styles */
+
 #main-navbar {
   background-color: var(--deep-pink);
   display: flex;
@@ -92,7 +93,7 @@ h2 {
   padding: 10px 25px;
 }
 
-/* Index Page-Specific Styles */
+/* Index Page Styles */
 
 #index-page {
   display: flex;
@@ -120,7 +121,7 @@ h2 {
   font-weight: 700;
 }
 
-/* Fluid  Books Page Styles */
+/*Books Page Styles*/
 
 .book-section:first-child {
   margin-top: 0;
@@ -187,7 +188,7 @@ h2 {
   margin: 10px 0;
 }
 
-/*Music-page*/
+/*Music Page Styles*/
 
 #music-body {
   background-color: #dac2ee;
