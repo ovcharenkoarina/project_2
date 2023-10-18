@@ -130,3 +130,25 @@ h2 {
 .book-section {
   margin: 20px 0;
 }
+
+/* Fluid  Books Page Styles */
+.fluid-page {
+  background-color: var(--pastel-pink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fluid-page h1 {
+  background-color: var(--hot-pink);
+  text-shadow: 2px 2px 0 var(--dark-gray);
+  margin: 10px;
+}
+
+.fluid-page h2 {
+  color: var(--deep-pink);
+}
+
+.fluid-page .book-section {
+  margin: 20px 0;
+}
