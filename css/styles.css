@@ -191,3 +191,15 @@ h2 {
   text-align: center;
   margin: 10px 0;
 }
+
+/*Music-page*/
+
+#video-1 {
+  background-color: var(--dark-gray);
+  border: 3px solid var(--hot-pink);
+}
+
+#video-2 {
+    background-color: var(--hot-pink);
+    border: 3px solid var(--dark-gray);
+}
