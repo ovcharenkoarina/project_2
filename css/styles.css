@@ -115,6 +115,10 @@ h2 {
   margin: 10px;
 }
 
+#books-page h2 {
+  margin: 0;
+}
+
 .fluid-page #main-navbar ul {
   justify-content: flex-start;
   padding: 0 20px;
