@@ -16,6 +16,9 @@ html {
   --deep-pink: #ff1493;
   --white: #fff;
   --hot-pink: #ff69b4;
+  --light-purple: #dac2ee;
+  --deep-purple: #7b11ec;
+
 }
 
 a {
@@ -194,12 +197,22 @@ h2 {
 
 /*Music-page*/
 
+#music-body {
+  background-color: #dac2ee;
+}
+
+.music-header {
+  color: var(--deep-purple);
+}
+
 #video-1 {
-  background-color: var(--dark-gray);
-  border: 3px solid var(--hot-pink);
+  border: 5px solid var(--hot-pink);
 }
 
 #video-2 {
-    background-color: var(--hot-pink);
-    border: 3px solid var(--dark-gray);
+    border: 5px solid var(--dark-gray);
+}
+
+.music-section {
+  margin-bottom: 20px;
 }
