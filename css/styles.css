@@ -122,6 +122,9 @@ h2 {
 }
 
 /*Books Page Styles*/
+#books-page {
+  align-items: center; 
+}
 
 .book-section:first-child {
   margin-top: 0;
